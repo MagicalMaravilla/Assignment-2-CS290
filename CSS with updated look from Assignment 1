@@ -1,0 +1,97 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e8f5e9; /* Softer green background */
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    line-height: 1.6; /* Improved line spacing */
+}
+
+header {
+    background-color: #81c784; /* Lighter green for the header */
+    color: white;
+    padding: 40px 0; /* Increased padding for larger header */
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 3.5em; /* Slightly larger size for the main header */
+}
+
+h2, h3, h4 {
+    font-size: 2.5em; /* Increased size for better readability */
+}
+
+#timer {
+    font-size: 3.5em;
+    color: #4caf50; /* Earthy green for the countdown timer */
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 30px;
+    background-color: #ffffff; /* White background for content sections */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+a {
+    color: #66bb6a; /* Softer green for links */
+    text-decoration: none;
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+a:hover {
+    color: #388e3c; /* Darker shade on hover */
+    text-decoration: underline;
+}
+
+ul, ol {
+    text-align: left;
+    display: inline-block;
+    font-size: 1.2em; /* Larger text for lists */
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 1.2em; /* Larger text for tables */
+}
+
+th, td {
+    padding: 12px; /* Increased padding for table cells */
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #81c784; /* Lighter green for table headers */
+    color: white;
+}
+
+footer {
+    background-color: #455a64; /* Darker footer for contrast */
+    color: white;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    header, section, footer {
+        padding: 20px;
+    }
+    #timer, h1, h2, h3, h4 {
+        font-size: 2em; /* Adjusted size for smaller screens */
+    }
+}
